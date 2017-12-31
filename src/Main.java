@@ -18,9 +18,13 @@ public class Main extends PApplet {
     clearBoard(board1);
     clearBoard(board2);
 
-    board1[4][4] = State.alive;
+    board1[4][5] = State.alive;
+    board1[4][6] = State.alive;
+    board1[4][7] = State.alive;
+
     board1[5][4] = State.alive;
-    board1[6][4] = State.alive;
+    board1[5][5] = State.alive;
+    board1[5][6] = State.alive;
 
     readBoard = board1;
     writeBoard = board2;
